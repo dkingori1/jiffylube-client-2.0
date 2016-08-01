@@ -1,0 +1,18 @@
+{
+  "name": "jiffylube",
+  "description": "Jiffy Portal 2.0",
+  "main": "server.js",
+  "authors": [
+    "David Kingori"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

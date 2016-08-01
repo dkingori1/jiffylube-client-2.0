@@ -1,0 +1,11 @@
+{
+  "name": "jiffylube",
+  "version": "2.0.0",
+  "description": "Jiffy Portal 2.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "author": "David Kingori",
+  "license": "ISC"
+}
