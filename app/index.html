@@ -3,11 +3,1017 @@
 <head>
   <title>My index</title>
   <!-- inject:css -->
+
+  <link rel="stylesheet" href="/bower_components/angular/angular-csp.css">
+
+  <link rel="stylesheet" href="/bower_components/protractor/testapp/app.css">
+
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.css">
+
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/bower_components/jasmine-core/lib/jasmine-core/jasmine.css">
+
+  <link rel="stylesheet" href="/bower_components/protractor/testapp/hybrid/styles.css">
+
+  <link rel="stylesheet" href="/bower_components/protractor/testapp/ng1/app.css">
+
+  <link rel="stylesheet" href="/bower_components/protractor/testapp/ng2/styles.css">
+
+  <link rel="stylesheet" href="/bower_components/protractor/website/css/prettify.css">
+
+  <link rel="stylesheet" href="/bower_components/protractor/testapp/ng1/animation/animation.css">
+
+  <link rel="stylesheet" href="/bower_components/lodash/vendor/firebug-lite/skin/xp/debugger.css">
+
+  <link rel="stylesheet" href="/bower_components/lodash/vendor/firebug-lite/skin/xp/firebug-1.3a2.css">
+
+  <link rel="stylesheet" href="/bower_components/lodash/vendor/firebug-lite/skin/xp/firebug.IE6.css">
+
+  <link rel="stylesheet" href="/bower_components/lodash/vendor/firebug-lite/skin/xp/firebug.css">
+
+  <link rel="stylesheet" href="/bower_components/lodash/vendor/firebug-lite/skin/xp/html.css">
+
   <!-- endinject -->
 </head>
 <body>
  
   <!-- inject:js -->
+
+  <script src="/bower_components/angular/angular.js"></script>
+
+  <script src="/bower_components/angular/angular.min.js"></script>
+
+  <script src="/bower_components/angular/index.js"></script>
+
+  <script src="/bower_components/bootstrap/Gruntfile.js"></script>
+
+  <script src="/bower_components/bootstrap/package.js"></script>
+
+  <script src="/bower_components/lodash/lodash.js"></script>
+
+  <script src="/bower_components/restangular/Gruntfile.js"></script>
+
+  <script src="/bower_components/restangular/karma.conf.js"></script>
+
+  <script src="/bower_components/restangular/karma.underscore.conf.js"></script>
+
+  <script src="/bower_components/protractor/gulpfile.js"></script>
+
+  <script src="/bower_components/bootstrap/grunt/bs-commonjs-generator.js"></script>
+
+  <script src="/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js"></script>
+
+  <script src="/bower_components/bootstrap/grunt/bs-lessdoc-parser.js"></script>
+
+  <script src="/bower_components/bootstrap/grunt/bs-raw-files-generator.js"></script>
+
+  <script src="/bower_components/bootstrap/grunt/change-version.js"></script>
+
+  <script src="/bower_components/bootstrap/js/affix.js"></script>
+
+  <script src="/bower_components/bootstrap/js/alert.js"></script>
+
+  <script src="/bower_components/bootstrap/js/button.js"></script>
+
+  <script src="/bower_components/bootstrap/js/carousel.js"></script>
+
+  <script src="/bower_components/bootstrap/js/collapse.js"></script>
+
+  <script src="/bower_components/bootstrap/js/dropdown.js"></script>
+
+  <script src="/bower_components/bootstrap/js/modal.js"></script>
+
+  <script src="/bower_components/bootstrap/js/popover.js"></script>
+
+  <script src="/bower_components/bootstrap/js/scrollspy.js"></script>
+
+  <script src="/bower_components/bootstrap/js/tab.js"></script>
+
+  <script src="/bower_components/bootstrap/js/tooltip.js"></script>
+
+  <script src="/bower_components/bootstrap/js/transition.js"></script>
+
+  <script src="/bower_components/jasmine-core/lib/jasmine-core.js"></script>
+
+  <script src="/bower_components/jquery/dist/core.js"></script>
+
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+
+  <script src="/bower_components/jquery/dist/jquery.slim.js"></script>
+
+  <script src="/bower_components/jquery/dist/jquery.slim.min.js"></script>
+
+  <script src="/bower_components/jquery/src/ajax.js"></script>
+
+  <script src="/bower_components/jquery/src/attributes.js"></script>
+
+  <script src="/bower_components/jquery/src/callbacks.js"></script>
+
+  <script src="/bower_components/jquery/src/core.js"></script>
+
+  <script src="/bower_components/jquery/src/css.js"></script>
+
+  <script src="/bower_components/jquery/src/data.js"></script>
+
+  <script src="/bower_components/jquery/src/deferred.js"></script>
+
+  <script src="/bower_components/jquery/src/deprecated.js"></script>
+
+  <script src="/bower_components/jquery/src/dimensions.js"></script>
+
+  <script src="/bower_components/jquery/src/effects.js"></script>
+
+  <script src="/bower_components/jquery/src/event.js"></script>
+
+  <script src="/bower_components/jquery/src/jquery.js"></script>
+
+  <script src="/bower_components/jquery/src/manipulation.js"></script>
+
+  <script src="/bower_components/jquery/src/offset.js"></script>
+
+  <script src="/bower_components/jquery/src/queue.js"></script>
+
+  <script src="/bower_components/jquery/src/selector-native.js"></script>
+
+  <script src="/bower_components/jquery/src/selector-sizzle.js"></script>
+
+  <script src="/bower_components/jquery/src/selector.js"></script>
+
+  <script src="/bower_components/jquery/src/serialize.js"></script>
+
+  <script src="/bower_components/jquery/src/traversing.js"></script>
+
+  <script src="/bower_components/jquery/src/wrap.js"></script>
+
+  <script src="/bower_components/karma/lib/karma.js"></script>
+
+  <script src="/bower_components/lodash/dist/lodash.core.js"></script>
+
+  <script src="/bower_components/lodash/dist/lodash.core.min.js"></script>
+
+  <script src="/bower_components/lodash/dist/lodash.fp.js"></script>
+
+  <script src="/bower_components/lodash/dist/lodash.fp.min.js"></script>
+
+  <script src="/bower_components/lodash/dist/lodash.js"></script>
+
+  <script src="/bower_components/lodash/dist/lodash.min.js"></script>
+
+  <script src="/bower_components/lodash/dist/mapping.fp.js"></script>
+
+  <script src="/bower_components/lodash/fp/_baseConvert.js"></script>
+
+  <script src="/bower_components/lodash/fp/_convertBrowser.js"></script>
+
+  <script src="/bower_components/lodash/fp/_mapping.js"></script>
+
+  <script src="/bower_components/lodash/fp/placeholder.js"></script>
+
+  <script src="/bower_components/lodash/perf/perf.js"></script>
+
+  <script src="/bower_components/lodash/test/remove.js"></script>
+
+  <script src="/bower_components/lodash/test/saucelabs.js"></script>
+
+  <script src="/bower_components/lodash/test/test-fp.js"></script>
+
+  <script src="/bower_components/lodash/test/test.js"></script>
+
+  <script src="/bower_components/oclazyload/dist/ocLazyLoad.js"></script>
+
+  <script src="/bower_components/oclazyload/dist/ocLazyLoad.min.js"></script>
+
+  <script src="/bower_components/oclazyload/dist/ocLazyLoad.require.js"></script>
+
+  <script src="/bower_components/oclazyload/dist/ocLazyLoad.require.min.js"></script>
+
+  <script src="/bower_components/restangular/dist/restangular.js"></script>
+
+  <script src="/bower_components/restangular/dist/restangular.min.js"></script>
+
+  <script src="/bower_components/restangular/test/restangularSpec.js"></script>
+
+  <script src="/bower_components/restangular/src/restangular.js"></script>
+
+  <script src="/bower_components/protractor/bin/elementexplorer.js"></script>
+
+  <script src="/bower_components/protractor/debugging/failureConf.js"></script>
+
+  <script src="/bower_components/protractor/debugging/failure_spec.js"></script>
+
+  <script src="/bower_components/protractor/debugging/timeoutConf.js"></script>
+
+  <script src="/bower_components/protractor/debugging/timeout_spec.js"></script>
+
+  <script src="/bower_components/protractor/example/conf.js"></script>
+
+  <script src="/bower_components/protractor/example/example_spec.js"></script>
+
+  <script src="/bower_components/protractor/docs/referenceConf.js"></script>
+
+  <script src="/bower_components/protractor/lib/clientsidescripts.js"></script>
+
+  <script src="/bower_components/protractor/scripts/attachSession.js"></script>
+
+  <script src="/bower_components/protractor/scripts/exitCodes.js"></script>
+
+  <script src="/bower_components/protractor/scripts/get-version.js"></script>
+
+  <script src="/bower_components/protractor/scripts/test.js"></script>
+
+  <script src="/bower_components/protractor/spec/altRootConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/angular2Conf.js"></script>
+
+  <script src="/bower_components/protractor/spec/angular2TimeoutConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/attachSession.js"></script>
+
+  <script src="/bower_components/protractor/spec/basicConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/ciBStackConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/ciFullConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/ciNg2Conf.js"></script>
+
+  <script src="/bower_components/protractor/spec/ciSmokeConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/controlLockConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/customFramework.js"></script>
+
+  <script src="/bower_components/protractor/spec/directConnectConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/driverprovider_test.js"></script>
+
+  <script src="/bower_components/protractor/spec/environment.js"></script>
+
+  <script src="/bower_components/protractor/spec/getCapabilitiesConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/hybridConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/interactionConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/mochaConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/multiConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/noGlobalsConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/onCleanUpAsyncReturnValueConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/onCleanUpNoReturnValueConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/onCleanUpSyncReturnValueConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/onPrepareConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/onPrepareFileConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/onPreparePromiseConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/onPreparePromiseFileConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/restartBrowserBetweenTestsConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/shardingConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/suitesConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/withLoginConf.js"></script>
+
+  <script src="/bower_components/protractor/stress/conf.js"></script>
+
+  <script src="/bower_components/protractor/stress/spec.js"></script>
+
+  <script src="/bower_components/protractor/website/gulpfile.js"></script>
+
+  <script src="/bower_components/protractor/website/karma.conf.js"></script>
+
+  <script src="/bower_components/protractor/website/protractor.conf.js"></script>
+
+  <script src="/bower_components/protractor/website/run-tests.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon.js"></script>
+
+  <script src="/bower_components/sinon/test/assert-test.js"></script>
+
+  <script src="/bower_components/sinon/test/buster-packaged.js"></script>
+
+  <script src="/bower_components/sinon/test/buster.js"></script>
+
+  <script src="/bower_components/sinon/test/call-test.js"></script>
+
+  <script src="/bower_components/sinon/test/collection-test.js"></script>
+
+  <script src="/bower_components/sinon/test/extend-test.js"></script>
+
+  <script src="/bower_components/sinon/test/format-test.js"></script>
+
+  <script src="/bower_components/sinon/test/hello-world-test.js"></script>
+
+  <script src="/bower_components/sinon/test/log-error-test.js"></script>
+
+  <script src="/bower_components/sinon/test/match-test.js"></script>
+
+  <script src="/bower_components/sinon/test/mock-test.js"></script>
+
+  <script src="/bower_components/sinon/test/sandbox-test.js"></script>
+
+  <script src="/bower_components/sinon/test/sinon-test.js"></script>
+
+  <script src="/bower_components/sinon/test/spy-test.js"></script>
+
+  <script src="/bower_components/sinon/test/stub-test.js"></script>
+
+  <script src="/bower_components/sinon/test/test-case-test.js"></script>
+
+  <script src="/bower_components/sinon/test/test-helper.js"></script>
+
+  <script src="/bower_components/sinon/test/test-test.js"></script>
+
+  <script src="/bower_components/sinon/test/times-in-words-test.js"></script>
+
+  <script src="/bower_components/sinon/test/typeOf-test.js"></script>
+
+  <script src="/bower_components/sinon/test/walk-test.js"></script>
+
+  <script src="/bower_components/sinon/test/webworker-script.js"></script>
+
+  <script src="/bower_components/sinon/test/webworker-support-assessment.js"></script>
+
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <script src="/bower_components/bootstrap/dist/js/npm.js"></script>
+
+  <script src="/bower_components/jasmine-core/lib/jasmine-core/boot.js"></script>
+
+  <script src="/bower_components/jasmine-core/lib/jasmine-core/jasmine-html.js"></script>
+
+  <script src="/bower_components/jasmine-core/lib/jasmine-core/jasmine.js"></script>
+
+  <script src="/bower_components/jasmine-core/lib/jasmine-core/json2.js"></script>
+
+  <script src="/bower_components/jasmine-core/lib/jasmine-core/node_boot.js"></script>
+
+  <script src="/bower_components/jasmine-core/lib/console/console.js"></script>
+
+  <script src="/bower_components/jquery/src/ajax/jsonp.js"></script>
+
+  <script src="/bower_components/jquery/src/ajax/load.js"></script>
+
+  <script src="/bower_components/jquery/src/ajax/parseXML.js"></script>
+
+  <script src="/bower_components/jquery/src/ajax/script.js"></script>
+
+  <script src="/bower_components/jquery/src/ajax/xhr.js"></script>
+
+  <script src="/bower_components/jquery/src/attributes/attr.js"></script>
+
+  <script src="/bower_components/jquery/src/attributes/classes.js"></script>
+
+  <script src="/bower_components/jquery/src/attributes/prop.js"></script>
+
+  <script src="/bower_components/jquery/src/attributes/support.js"></script>
+
+  <script src="/bower_components/jquery/src/attributes/val.js"></script>
+
+  <script src="/bower_components/jquery/src/core/DOMEval.js"></script>
+
+  <script src="/bower_components/jquery/src/core/access.js"></script>
+
+  <script src="/bower_components/jquery/src/core/init.js"></script>
+
+  <script src="/bower_components/jquery/src/core/parseHTML.js"></script>
+
+  <script src="/bower_components/jquery/src/core/ready-no-deferred.js"></script>
+
+  <script src="/bower_components/jquery/src/core/ready.js"></script>
+
+  <script src="/bower_components/jquery/src/core/readyException.js"></script>
+
+  <script src="/bower_components/jquery/src/core/support.js"></script>
+
+  <script src="/bower_components/jquery/src/css/addGetHookIf.js"></script>
+
+  <script src="/bower_components/jquery/src/css/adjustCSS.js"></script>
+
+  <script src="/bower_components/jquery/src/css/curCSS.js"></script>
+
+  <script src="/bower_components/jquery/src/css/hiddenVisibleSelectors.js"></script>
+
+  <script src="/bower_components/jquery/src/css/showHide.js"></script>
+
+  <script src="/bower_components/jquery/src/css/support.js"></script>
+
+  <script src="/bower_components/jquery/src/data/Data.js"></script>
+
+  <script src="/bower_components/jquery/src/deferred/exceptionHook.js"></script>
+
+  <script src="/bower_components/jquery/src/effects/Tween.js"></script>
+
+  <script src="/bower_components/jquery/src/effects/animatedSelector.js"></script>
+
+  <script src="/bower_components/jquery/src/event/ajax.js"></script>
+
+  <script src="/bower_components/jquery/src/event/alias.js"></script>
+
+  <script src="/bower_components/jquery/src/event/focusin.js"></script>
+
+  <script src="/bower_components/jquery/src/event/support.js"></script>
+
+  <script src="/bower_components/jquery/src/event/trigger.js"></script>
+
+  <script src="/bower_components/jquery/src/exports/amd.js"></script>
+
+  <script src="/bower_components/jquery/src/exports/global.js"></script>
+
+  <script src="/bower_components/jquery/src/manipulation/_evalUrl.js"></script>
+
+  <script src="/bower_components/jquery/src/manipulation/buildFragment.js"></script>
+
+  <script src="/bower_components/jquery/src/manipulation/getAll.js"></script>
+
+  <script src="/bower_components/jquery/src/manipulation/setGlobalEval.js"></script>
+
+  <script src="/bower_components/jquery/src/manipulation/support.js"></script>
+
+  <script src="/bower_components/jquery/src/manipulation/wrapMap.js"></script>
+
+  <script src="/bower_components/jquery/src/queue/delay.js"></script>
+
+  <script src="/bower_components/jquery/src/traversing/findFilter.js"></script>
+
+  <script src="/bower_components/jquery/src/var/ObjectFunctionString.js"></script>
+
+  <script src="/bower_components/jquery/src/var/arr.js"></script>
+
+  <script src="/bower_components/jquery/src/var/class2type.js"></script>
+
+  <script src="/bower_components/jquery/src/var/concat.js"></script>
+
+  <script src="/bower_components/jquery/src/var/document.js"></script>
+
+  <script src="/bower_components/jquery/src/var/documentElement.js"></script>
+
+  <script src="/bower_components/jquery/src/var/fnToString.js"></script>
+
+  <script src="/bower_components/jquery/src/var/getProto.js"></script>
+
+  <script src="/bower_components/jquery/src/var/hasOwn.js"></script>
+
+  <script src="/bower_components/jquery/src/var/indexOf.js"></script>
+
+  <script src="/bower_components/jquery/src/var/pnum.js"></script>
+
+  <script src="/bower_components/jquery/src/var/push.js"></script>
+
+  <script src="/bower_components/jquery/src/var/rcssNum.js"></script>
+
+  <script src="/bower_components/jquery/src/var/rnotwhite.js"></script>
+
+  <script src="/bower_components/jquery/src/var/slice.js"></script>
+
+  <script src="/bower_components/jquery/src/var/support.js"></script>
+
+  <script src="/bower_components/jquery/src/var/toString.js"></script>
+
+  <script src="/bower_components/lodash/lib/common/file.js"></script>
+
+  <script src="/bower_components/lodash/lib/common/mapping.js"></script>
+
+  <script src="/bower_components/lodash/lib/common/minify.js"></script>
+
+  <script src="/bower_components/lodash/lib/common/uglify.options.js"></script>
+
+  <script src="/bower_components/lodash/lib/common/util.js"></script>
+
+  <script src="/bower_components/lodash/lib/fp/build-dist.js"></script>
+
+  <script src="/bower_components/lodash/lib/fp/build-doc.js"></script>
+
+  <script src="/bower_components/lodash/lib/fp/build-modules.js"></script>
+
+  <script src="/bower_components/lodash/lib/main/build-dist.js"></script>
+
+  <script src="/bower_components/lodash/lib/main/build-doc.js"></script>
+
+  <script src="/bower_components/lodash/lib/main/build-modules.js"></script>
+
+  <script src="/bower_components/lodash/lib/main/build-site.js"></script>
+
+  <script src="/bower_components/lodash/perf/asset/perf-ui.js"></script>
+
+  <script src="/bower_components/lodash/test/asset/test-ui.js"></script>
+
+  <script src="/bower_components/lodash/test/asset/worker.js"></script>
+
+  <script src="/bower_components/lodash/vendor/backbone/backbone.js"></script>
+
+  <script src="/bower_components/lodash/vendor/json-js/json2.js"></script>
+
+  <script src="/bower_components/lodash/vendor/underscore/underscore-min.js"></script>
+
+  <script src="/bower_components/lodash/vendor/underscore/underscore.js"></script>
+
+  <script src="/bower_components/oclazyload/dist/modules/ocLazyLoad.core.js"></script>
+
+  <script src="/bower_components/oclazyload/dist/modules/ocLazyLoad.directive.js"></script>
+
+  <script src="/bower_components/oclazyload/dist/modules/ocLazyLoad.loaders.common.js"></script>
+
+  <script src="/bower_components/oclazyload/dist/modules/ocLazyLoad.loaders.core.js"></script>
+
+  <script src="/bower_components/oclazyload/dist/modules/ocLazyLoad.loaders.cssLoader.js"></script>
+
+  <script src="/bower_components/oclazyload/dist/modules/ocLazyLoad.loaders.jsLoader.js"></script>
+
+  <script src="/bower_components/oclazyload/dist/modules/ocLazyLoad.loaders.requireJSLoader.js"></script>
+
+  <script src="/bower_components/oclazyload/dist/modules/ocLazyLoad.loaders.templatesLoader.js"></script>
+
+  <script src="/bower_components/oclazyload/dist/modules/ocLazyLoad.polyfill.ie8.js"></script>
+
+  <script src="/bower_components/protractor/lib/debugger/debuggerCommons.js"></script>
+
+  <script src="/bower_components/protractor/lib/frameworks/debugprint.js"></script>
+
+  <script src="/bower_components/protractor/lib/frameworks/explorer.js"></script>
+
+  <script src="/bower_components/protractor/lib/frameworks/jasmine.js"></script>
+
+  <script src="/bower_components/protractor/lib/frameworks/mocha.js"></script>
+
+  <script src="/bower_components/protractor/lib/selenium-webdriver/locators.js"></script>
+
+  <script src="/bower_components/protractor/lib/selenium-webdriver/webdriver.js"></script>
+
+  <script src="/bower_components/protractor/scripts/interactive_tests/interactive_test.js"></script>
+
+  <script src="/bower_components/protractor/scripts/interactive_tests/interactive_test_util.js"></script>
+
+  <script src="/bower_components/protractor/scripts/interactive_tests/with_base_url.js"></script>
+
+  <script src="/bower_components/protractor/scripts/test/test_util.js"></script>
+
+  <script src="/bower_components/protractor/scripts/typings_tests/test_typings.js"></script>
+
+  <script src="/bower_components/protractor/spec/altRoot/findelements_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/attachSessionProvider/attachSession_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/basic/actions_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/basic/elements_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/basic/excludeme_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/basic/expected_conditions_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/basic/handling_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/basic/lib_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/basic/locators_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/basic/mockmodule_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/basic/navigation_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/basic/polling_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/basic/synchronize_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/control/spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/custom/framework.js"></script>
+
+  <script src="/bower_components/protractor/spec/custom/smoke_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/dependencyTest/protractor_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/dependencyTest/seleniumWebdriver_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/dependencyTest/setup.js"></script>
+
+  <script src="/bower_components/protractor/spec/directConnect/directconnect_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/afterLaunchChangesExitCodeConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/browserStackAuthentication.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/debugMultiCapabilities.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/mochaFailureConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/multiFailureConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/pluginsFailingConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/sauceLabsAuthentication.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/shardedFailureConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/singleFailureConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/slowHttpAndTimeoutConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/timeoutConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/hybrid/async_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/interaction/interaction_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/login/login_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/mocha/lib_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/ng2/async_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/ng2/timeout_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/noGlobals/noGlobals_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/onCleanUp/onCleanUp_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/onPrepare/asyncstartup.js"></script>
+
+  <script src="/bower_components/protractor/spec/onPrepare/onPrepare_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/onPrepare/startup.js"></script>
+
+  <script src="/bower_components/protractor/spec/restartBrowserBetweenTests/setCookies_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/browserGetSyncedConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/browserGetUnsyncedConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/jasminePostTestConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/mochaPostTestConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/multiPluginConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/postTestConfTemplate.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/skipStabilityConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/smokeConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/waitForAngularConf.js"></script>
+
+  <script src="/bower_components/protractor/spec/suites/always_fail_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/suites/ok_2_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/suites/ok_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/unit/configParser_test.js"></script>
+
+  <script src="/bower_components/protractor/spec/unit/logger_test.js"></script>
+
+  <script src="/bower_components/protractor/spec/unit/runner_test.js"></script>
+
+  <script src="/bower_components/protractor/spec/unit/taskScheduler_test.js"></script>
+
+  <script src="/bower_components/protractor/testapp/hybrid/systemjs.config.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/app.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng2/system-config.js"></script>
+
+  <script src="/bower_components/protractor/testapp/scripts/web-server.js"></script>
+
+  <script src="/bower_components/protractor/website/docgen/dgeni-config.js"></script>
+
+  <script src="/bower_components/protractor/website/js/api-controller.js"></script>
+
+  <script src="/bower_components/protractor/website/js/directives.js"></script>
+
+  <script src="/bower_components/protractor/website/js/markdown-controller.js"></script>
+
+  <script src="/bower_components/protractor/website/js/modules.js"></script>
+
+  <script src="/bower_components/protractor/website/js/prettify.js"></script>
+
+  <script src="/bower_components/protractor/website/js/routes.js"></script>
+
+  <script src="/bower_components/protractor/website/js/shared.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/assert.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/behavior.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/call.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/collection.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/extend.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/format.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/log_error.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/match.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/mock.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/sandbox.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/spy.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/stub.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/test.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/test_case.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/times_in_words.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/typeOf.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/walk.js"></script>
+
+  <script src="/bower_components/sinon/test/issues/issues-test.js"></script>
+
+  <script src="/bower_components/sinon/test/util/event-test.js"></script>
+
+  <script src="/bower_components/sinon/test/util/fake-server-test.js"></script>
+
+  <script src="/bower_components/sinon/test/util/fake-server-with-clock-test.js"></script>
+
+  <script src="/bower_components/sinon/test/util/fake-timers-test.js"></script>
+
+  <script src="/bower_components/sinon/test/util/fake-xdomain-request-test.js"></script>
+
+  <script src="/bower_components/sinon/test/util/fake-xml-http-request-test.js"></script>
+
+  <script src="/bower_components/jquery/external/sizzle/dist/sizzle.js"></script>
+
+  <script src="/bower_components/jquery/external/sizzle/dist/sizzle.min.js"></script>
+
+  <script src="/bower_components/jquery/src/ajax/var/location.js"></script>
+
+  <script src="/bower_components/jquery/src/ajax/var/nonce.js"></script>
+
+  <script src="/bower_components/jquery/src/ajax/var/rquery.js"></script>
+
+  <script src="/bower_components/jquery/src/core/var/rsingleTag.js"></script>
+
+  <script src="/bower_components/jquery/src/css/var/cssExpand.js"></script>
+
+  <script src="/bower_components/jquery/src/css/var/getStyles.js"></script>
+
+  <script src="/bower_components/jquery/src/css/var/isHiddenWithinTree.js"></script>
+
+  <script src="/bower_components/jquery/src/css/var/rmargin.js"></script>
+
+  <script src="/bower_components/jquery/src/css/var/rnumnonpx.js"></script>
+
+  <script src="/bower_components/jquery/src/css/var/swap.js"></script>
+
+  <script src="/bower_components/jquery/src/data/var/acceptData.js"></script>
+
+  <script src="/bower_components/jquery/src/data/var/dataPriv.js"></script>
+
+  <script src="/bower_components/jquery/src/data/var/dataUser.js"></script>
+
+  <script src="/bower_components/jquery/src/manipulation/var/rcheckableType.js"></script>
+
+  <script src="/bower_components/jquery/src/manipulation/var/rscriptType.js"></script>
+
+  <script src="/bower_components/jquery/src/manipulation/var/rtagName.js"></script>
+
+  <script src="/bower_components/jquery/src/traversing/var/dir.js"></script>
+
+  <script src="/bower_components/jquery/src/traversing/var/rneedsContext.js"></script>
+
+  <script src="/bower_components/jquery/src/traversing/var/siblings.js"></script>
+
+  <script src="/bower_components/lodash/vendor/backbone/test/collection.js"></script>
+
+  <script src="/bower_components/lodash/vendor/backbone/test/events.js"></script>
+
+  <script src="/bower_components/lodash/vendor/backbone/test/model.js"></script>
+
+  <script src="/bower_components/lodash/vendor/backbone/test/noconflict.js"></script>
+
+  <script src="/bower_components/lodash/vendor/backbone/test/router.js"></script>
+
+  <script src="/bower_components/lodash/vendor/backbone/test/sync.js"></script>
+
+  <script src="/bower_components/lodash/vendor/backbone/test/view.js"></script>
+
+  <script src="/bower_components/lodash/vendor/firebug-lite/src/firebug-lite-debug.js"></script>
+
+  <script src="/bower_components/lodash/vendor/underscore/test/arrays.js"></script>
+
+  <script src="/bower_components/lodash/vendor/underscore/test/chaining.js"></script>
+
+  <script src="/bower_components/lodash/vendor/underscore/test/collections.js"></script>
+
+  <script src="/bower_components/lodash/vendor/underscore/test/cross-document.js"></script>
+
+  <script src="/bower_components/lodash/vendor/underscore/test/functions.js"></script>
+
+  <script src="/bower_components/lodash/vendor/underscore/test/objects.js"></script>
+
+  <script src="/bower_components/lodash/vendor/underscore/test/utility.js"></script>
+
+  <script src="/bower_components/protractor/lib/debugger/clients/explorer.js"></script>
+
+  <script src="/bower_components/protractor/lib/debugger/clients/wddebugger.js"></script>
+
+  <script src="/bower_components/protractor/lib/debugger/modes/commandRepl.js"></script>
+
+  <script src="/bower_components/protractor/lib/debugger/modes/debuggerRepl.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/baseCase/error_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/baseCase/mocha_failure_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/baseCase/single_failure_spec1.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/baseCase/single_failure_spec2.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/baseCase/slow_http_and_timeout_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/baseCase/success_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/errorTest/baseCase/timeout_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/plugins/async_plugin.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/plugins/basic_plugin.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/plugins/failing_plugin.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/plugins/post_test_plugin.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/specs/bigger_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/specs/browser_get_wait_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/specs/fail_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/specs/simple_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/specs/skip_stability_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/plugins/specs/smoke_spec.js"></script>
+
+  <script src="/bower_components/protractor/spec/unit/data/config.js"></script>
+
+  <script src="/bower_components/protractor/spec/unit/data/fakespecA.js"></script>
+
+  <script src="/bower_components/protractor/spec/unit/data/fakespecB.js"></script>
+
+  <script src="/bower_components/protractor/spec/unit/data/fakespecC.js"></script>
+
+  <script src="/bower_components/protractor/spec/unit/driverProviders/direct_test.js"></script>
+
+  <script src="/bower_components/protractor/spec/unit/driverProviders/local_test.js"></script>
+
+  <script src="/bower_components/protractor/testapp/hybrid/app/main.js"></script>
+
+  <script src="/bower_components/protractor/testapp/hybrid/app/myApp.js"></script>
+
+  <script src="/bower_components/protractor/testapp/hybrid/app/ng1.js"></script>
+
+  <script src="/bower_components/protractor/testapp/hybrid/app/ng2.js"></script>
+
+  <script src="/bower_components/protractor/testapp/hybrid/app/upgrader.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/animation/animation.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/async/async.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/bindings/bindings.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/components/app-version.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/conflict/conflict.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/form/form.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/interaction/interaction.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/lib/angular_version.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/polling/polling.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/repeater/repeater.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/shadow/shadow.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng2/app/app.component.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng2/app/app.routes.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng2/app/main.js"></script>
+
+  <script src="/bower_components/protractor/website/docgen/inline_tags/code.js"></script>
+
+  <script src="/bower_components/protractor/website/docgen/processors/add-links.js"></script>
+
+  <script src="/bower_components/protractor/website/docgen/processors/add-toc.js"></script>
+
+  <script src="/bower_components/protractor/website/docgen/processors/filter-jsdoc.js"></script>
+
+  <script src="/bower_components/protractor/website/docgen/processors/filter-promise.js"></script>
+
+  <script src="/bower_components/protractor/website/docgen/processors/set-file-name.js"></script>
+
+  <script src="/bower_components/protractor/website/docgen/processors/tag-fixer.js"></script>
+
+  <script src="/bower_components/protractor/website/docgen/processors/these-children.js"></script>
+
+  <script src="/bower_components/protractor/website/docgen/processors/transfer-see.js"></script>
+
+  <script src="/bower_components/protractor/website/docgen/spec/add-links-spec.js"></script>
+
+  <script src="/bower_components/protractor/website/docgen/spec/tag-fixer-spec.js"></script>
+
+  <script src="/bower_components/protractor/website/docgen/spec/transfer-see-spec.js"></script>
+
+  <script src="/bower_components/protractor/website/test/e2e/api-page.js"></script>
+
+  <script src="/bower_components/protractor/website/test/e2e/api_spec.js"></script>
+
+  <script src="/bower_components/protractor/website/test/e2e/menu-partial.js"></script>
+
+  <script src="/bower_components/protractor/website/test/e2e/navigation_spec.js"></script>
+
+  <script src="/bower_components/protractor/website/test/unit/api-controller-spec.js"></script>
+
+  <script src="/bower_components/protractor/website/test/unit/directives-spec.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/util/core.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/util/event.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/util/fake_server.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/util/fake_server_with_clock.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/util/fake_timers.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/util/fake_xdomain_request.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/util/fake_xml_http_request.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/util/timers_ie.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/util/xdr_ie.js"></script>
+
+  <script src="/bower_components/sinon/lib/sinon/util/xhr_ie.js"></script>
+
+  <script src="/bower_components/lodash/vendor/backbone/test/setup/dom-setup.js"></script>
+
+  <script src="/bower_components/lodash/vendor/backbone/test/setup/environment.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/lib/angular_v1.2.9/angular-animate.min.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/lib/angular_v1.2.9/angular-route.min.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/lib/angular_v1.2.9/angular.min.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/lib/angular_v1.3.13/angular-animate.min.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/lib/angular_v1.3.13/angular-aria.min.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/lib/angular_v1.3.13/angular-route.min.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/lib/angular_v1.3.13/angular.min.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/lib/angular_v1.5.0/angular-animate.min.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/lib/angular_v1.5.0/angular-aria.min.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/lib/angular_v1.5.0/angular-route.min.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng1/lib/angular_v1.5.0/angular.min.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng2/app/async/async.component.js"></script>
+
+  <script src="/bower_components/protractor/testapp/ng2/app/home/home.component.js"></script>
+
+  <script src="/bower_components/protractor/testapp/hybrid/lib/angular2.0.0-beta.0/bundles/upgrade.js"></script>
+
+  <script src="/bower_components/jasmine-core/lib/jasmine-core/example/node_example/lib/jasmine_examples/Player.js"></script>
+
+  <script src="/bower_components/jasmine-core/lib/jasmine-core/example/node_example/lib/jasmine_examples/Song.js"></script>
+
   <!-- endinject -->
 </body>
 </html>

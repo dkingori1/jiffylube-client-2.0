@@ -4,7 +4,8 @@
   "description": "Jiffy Portal 2.0",
   "main": "server.js",
   "scripts": {
-    "test": "test.js"
+    "test": "test.js",
+    "start": "node server.js"
   },
   "author": "David Kingori",
   "license": "ISC",
